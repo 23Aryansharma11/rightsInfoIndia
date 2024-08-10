@@ -32,78 +32,91 @@
         contributions, as well as guidelines on the types of content we're
         looking for. If you have any questions or need further assistance, feel
         free to reach out to us.
-      <p>
-        Thank you again for your support and for helping us make legal
-        information more accessible to everyone.
+        <p>
+          Thank you again for your support and for helping us make legal
+          information more accessible to everyone.
+        </p>
       </p>
     </div>
   </div>
-</section>
+  <div class="faq-item">
+    <button class="faq-question">Why don't you just use ChatGPT?</button>
+    <div class="faq-answer">
+      <p>
+        We want the information to be presented in the easiest and simplest way
+        possible and to foster a community of informed individuals. While
+        ChatGPT is a powerful tool, we believe in curating content specifically
+        tailored to the needs of our community, ensuring clarity, accuracy, and
+        accessibility.
+      </p>
+    </div>
+  </div>
 
-<style>
-  .faq {
-    margin-top: 2rem;
-    padding: 2rem;
-    background: #e9e9e9; 
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  }
+  <style>
+    .faq {
+      margin-top: 2rem;
+      padding: 2rem;
+      background: #e9e9e9;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
 
-  .faq h2 {
-    margin-bottom: 1.5rem;
-    font-size: 2rem;
-    color: var(--black);
-    text-align: left;
-  }
+    .faq h2 {
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      color: var(--black);
+      text-align: left;
+    }
 
-  .faq-item {
-    margin-bottom: 1rem;
-  }
+    .faq-item {
+      margin-bottom: 1rem;
+    }
 
-  .faq-question {
-    width: 100%;
-    padding: 1rem;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    text-align: left;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  .faq-answer {
-    display: none;
-    padding: 1rem;
-    background: #f0f0f0;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-top: -1px;
-  }
+    .faq-question {
+      width: 100%;
+      padding: 1rem;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      text-align: left;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .faq-answer {
+      display: none;
+      padding: 1rem;
+      background: #f0f0f0;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-top: -1px;
+    }
 
-  .faq-answer p {
-    margin: 0;
-    color: #555;
-  }
+    .faq-answer p {
+      margin: 0;
+      color: #555;
+    }
 
-  .faq-item.active .faq-answer {
-    display: block;
-  }
-</style>
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+  </style>
 
-<script>
-  document
-    .querySelectorAll<HTMLButtonElement>(".faq-question")
-    .forEach((question) => {
-      question.addEventListener("click", () => {
-        const item = question.parentElement as HTMLElement;
-        const answer = item.querySelector(".faq-answer") as HTMLElement;
+  <script>
+    document
+      .querySelectorAll<HTMLButtonElement>(".faq-question")
+      .forEach((question) => {
+        question.addEventListener("click", () => {
+          const item = question.parentElement as HTMLElement;
+          const answer = item.querySelector(".faq-answer") as HTMLElement;
 
-        item.classList.toggle("active");
+          item.classList.toggle("active");
 
-        if (item.classList.contains("active")) {
-          answer.style.maxHeight = `${answer.scrollHeight}px`;
-        } else {
-          answer.style.maxHeight = "0";
-        }
+          if (item.classList.contains("active")) {
+            answer.style.maxHeight = `${answer.scrollHeight}px`;
+          } else {
+            answer.style.maxHeight = "0";
+          }
+        });
       });
-    });
-</script>
+  </script>
+</section>

@@ -7,20 +7,23 @@ import HeroSection from "../components/Home/HeroSection.astro";
 import FeaturedBlog from "../components/Home/FeaturedBlog.astro";
 import MeetContributors from "../components/Home/MeetContributors.astro";
 import FAQ from "../components/Home/FAQ.astro";
-
+import { ViewTransitions } from "astro:transitions";
+import Meta from "../components/Meta.astro";
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <ViewTransitions />
+    <Meta />
   </head>
   <body>
     <Header />
     <main>
       <HeroSection />
       <FeaturedBlog />
-      <MeetContributors />
+      <!-- <MeetContributors /> -->
       <FAQ />
     </main>
     <Footer />

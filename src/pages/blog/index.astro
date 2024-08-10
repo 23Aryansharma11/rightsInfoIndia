@@ -17,7 +17,7 @@ const posts = (await getCollection("blog")).sort(
 );
 
 // Move the post with slug "startexploring" to the first position
-const featuredSlug = "startexploring";
+const featuredSlug = "start-exploring";
 const featuredPostIndex = findFeaturedPostIndex(posts, featuredSlug);
 
 if (featuredPostIndex > -1) {
@@ -116,6 +116,7 @@ if (featuredPostIndex > -1) {
                     height={360}
                     src={post.data.heroImage}
                     alt={post.data.title}
+                    class="blogImg"
                   />
                   <h4 class="title">{post.data.title}</h4>
                   <p class="date">
@@ -129,5 +130,11 @@ if (featuredPostIndex > -1) {
       </section>
     </main>
     <Footer />
-  </body>
+  </body><style>
+    .blogImg {
+      height: 400px;
+      object-fit: cover;
+      object-position: center;
+    }
+  </style>
 </html>
