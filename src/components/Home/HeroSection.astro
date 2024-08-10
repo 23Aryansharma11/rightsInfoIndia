@@ -1,0 +1,84 @@
+---
+import { Image } from "astro:assets";
+import gateWayIndia from "../../assets/gateWayIndia.png";
+---
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Know Your Rights in India</h2>
+    <p>
+      Empowering individuals with comprehensive knowledge about their legal
+      rights.
+    </p>
+    <a href="/blog" class="cta-button">Explore</a>
+  </div>
+  <Image alt="Gateway India" src={gateWayIndia} width={500} height={500} />
+</section>
+
+<style>
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+    background: linear-gradient(to bottom right, #d1c4e9, #f8f8f8);
+  }
+
+  .hero-content {
+    margin-bottom: 2em;
+  }
+
+  .hero img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin: 0 0 1em 0;
+  }
+
+  .cta-button {
+    display: inline-block;
+    padding: 0.5em 1.25em;
+    background-color: #2f4f4f; /* Accent color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+
+  .cta-button:hover {
+    background-color: #2f4f4f; /* Darker shade of the accent color */
+  }
+
+  @media (min-width: 720px) {
+    .hero {
+      flex-direction: row;
+      text-align: left;
+      padding: 3em;
+    }
+
+    .hero-content {
+      margin-bottom: 0;
+      max-width: 50%;
+    }
+
+    .hero img {
+      max-width: 50%;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .hero-content {
+      max-width: 90%;
+    }
+
+    .hero img {
+      max-width: 100%;
+      margin-top: 1em;
+    }
+  }
+</style>

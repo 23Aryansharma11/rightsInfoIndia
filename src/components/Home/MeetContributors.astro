@@ -1,0 +1,66 @@
+---
+import { Image } from "astro:assets";
+import { contributors } from "../../consts";
+---
+
+<section class="contributors">
+  <h3>Meet Our Contributors</h3>
+  <p>
+    This site wouldn't be possible without the dedication and expertise of our
+    contributors. Their invaluable insights and contributions have helped shape
+    and enrich the content, ensuring that we provide accurate and comprehensive
+    information about legal rights in India. We extend our heartfelt thanks to
+    each one of them for their hard work and commitment.
+  </p>
+  <section class="contributors-wall">
+    {
+      contributors.map((cont) => (
+        <section class="contributor-avatar">
+          <Image src={cont.image} alt={cont.name} width={100} height={100} />
+          <p>{cont.name}</p>
+        </section>
+      ))
+    }
+  </section>
+</section>
+
+<style>
+  .contributors {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h3,
+    p {
+      width: 100%;
+    }
+  }
+  .contributors-wall {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .contributor-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    img {
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+    }
+    p {
+      font-size: 1rem;
+      padding: 0;
+      margin: 0;
+    }
+  }
+</style>

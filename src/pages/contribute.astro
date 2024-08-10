@@ -1,0 +1,109 @@
+---
+import { Image } from "astro:assets";
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="banner">
+        <Image
+          src="https://img.freepik.com/free-photo/strength-people-hands-success-meeting_1150-1690.jpg?t=st=1723284499~exp=1723288099~hmac=d45b70c3a0d4078cbf1b1afb9728b8b7f9f8dcf538e50f85103f076b9caba3bd&w=1380"
+          alt=""
+          width={800}
+          height={300}
+        />
+      </div>
+
+      <section class="contribution-info">
+        <h3>Why Your Contribution Matters</h3>
+        <p>
+          Thank you for considering contributing to RightsInfoIndia! Your
+          decision to help expand our content is invaluable. By sharing your
+          knowledge and insights, you’re making a significant impact on those
+          who may not have easy access to legal information. Your contributions
+          help us provide accurate and comprehensive resources, empowering more
+          people to understand their rights and navigate the complexities of the
+          law.
+        </p>
+
+        <h3>How to Contribute</h3>
+        <p>
+          We welcome blog posts and articles in any format you prefer. You can
+          write about any legal topic you’re passionate about, and there are no
+          strict guidelines for formatting—feel free to express your ideas in
+          the way that suits you best. To submit your contribution, simply email
+          your content to us with the subject line “Contribution.”
+        </p>
+
+        <h3>Why Email Instead of a Form</h3>
+        <p>
+          We’ve chosen to handle contributions via email rather than an online
+          form to keep our site free and to manage the volume of submissions
+          more efficiently. This approach helps us maintain the quality of our
+          content while keeping operational costs low. We appreciate your
+          understanding and cooperation in this matter.
+        </p>
+
+        <h3>Getting on the Contributor List</h3>
+        <p>
+          If you’d like to be featured on our contributor list, you can request
+          this at the end of your blog post. If you’re comfortable with us
+          adding your picture to the contributor page, please include a photo
+          and your name in the email along with your submission. If you prefer
+          to remain anonymous or do not want your picture included, simply let
+          us know, and we’ll honor your request.
+        </p>
+
+        <h3>Respectful Contributions</h3>
+        <p>
+          We kindly ask that all contributions maintain a respectful and
+          professional tone. Please avoid using any foul language or content
+          that could be deemed offensive. Our goal is to provide valuable and
+          respectful information to all our readers.
+        </p>
+      </section>
+    </main>
+    <Footer />
+    <style>
+      main {
+        height: max-content;
+      }
+
+      .banner {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img {
+        width: 100%;
+        max-width: 800px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 40px;
+        padding: 20px;
+        box-sizing: border-box; /* Ensures padding does not affect width calculation */
+      }
+
+      @media (max-width: 768px) {
+        img {
+          width: 80%; /* Adjust the width for mobile devices */
+        }
+      }
+      .contribution-info{
+        padding: 2rem;
+      }
+    </style>
+  </body>
+</html>
