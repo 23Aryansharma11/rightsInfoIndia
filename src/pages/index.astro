@@ -9,6 +9,7 @@ import MeetContributors from "../components/Home/MeetContributors.astro";
 import FAQ from "../components/Home/FAQ.astro";
 import { ViewTransitions } from "astro:transitions";
 import Meta from "../components/Meta.astro";
+import Search from "../components/Search/Search";
 ---
 
 <!doctype html>
@@ -20,7 +21,9 @@ import Meta from "../components/Meta.astro";
   </head>
   <body>
     <Header />
+
     <main>
+      <Search client:load />
       <HeroSection />
       <FeaturedBlog />
       <!-- <MeetContributors /> -->
