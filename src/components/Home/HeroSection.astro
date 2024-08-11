@@ -13,6 +13,11 @@ import gateWayIndia from "../../assets/gateWayIndia.png";
       together.
     </p>
     <a href="/blog" class="cta-button">Explore</a>
+    <a
+      href="mailto:rightsinfoind@gmail.com"
+      target="_blank"
+      class="cta-button-2">Contribute</a
+    >
   </div>
   <Image alt="Gateway India" src={gateWayIndia} width={500} height={500} />
 </section>
@@ -50,8 +55,18 @@ import gateWayIndia from "../../assets/gateWayIndia.png";
     text-decoration: none;
     border-radius: 5px;
     font-size: 1em;
+    margin-right: 1rem;
   }
-
+  .cta-button-2 {
+    display: inline-block;
+    padding: 0.3em 1em;
+    background-color: transparent; /* Accent color */
+    color: #2f4f4f;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #2f4f4f;
+    font-size: 1em;
+  }
   .cta-button:hover {
     background-color: #2f4f4f; /* Darker shade of the accent color */
   }
