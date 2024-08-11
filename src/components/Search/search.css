@@ -77,24 +77,24 @@ li:hover {
 /* Responsive styles for tablet */
 @media (max-width: 768px) {
     .search {
-        width: 80%;
+        width: 70%;
     }
 
     .search-results {
-        width: 80%;
+        width: 70%;
     }
 }
 
 /* Responsive styles for mobile */
 @media (max-width: 480px) {
     .search {
-        width: 100%;
+        width: 90%;
         padding: 0.4rem 0.8rem;
         border-radius: 4rem;
     }
 
     .search-results {
-        width: 100%;
+        width: 90%;
     }
 
     li {
