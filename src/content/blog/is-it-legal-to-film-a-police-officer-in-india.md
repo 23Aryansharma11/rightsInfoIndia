@@ -2,7 +2,7 @@
 title: "Is It Legal to Film a Police Officer in India?"
 description: "Discover the ins and outs of filming police officers in India with this comprehensive yet easy-to-understand guide. This article clarifies the legality of recording on-duty police officers, highlighting key legal provisions, such as the Kerala Police Act and landmark court rulings. Learn about the balance between transparency and privacy, along with crucial tips for recording without interfering with police duties."
 pubDate: "Aug 10 2024"
-heroImage: "https://img.freepik.com/free-photo/side-view-man-focusing-with-camera_23-2147654137.jpg?t=st=1723301356~exp=1723304956~hmac=22e402d4b2796e6d60b8014f9d18c53b9fa68de20f40a8bfbbaa33e1c06ad1d2&w=1380"
+heroImage: "https://res.cloudinary.com/dbcwdur62/image/upload/f_auto,q_auto/v1/images/urcra2needkkdisy5c2s"
 ---
 
 

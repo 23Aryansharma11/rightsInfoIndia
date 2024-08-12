@@ -2,7 +2,7 @@
 title: "Process of Filing an FIR"
 description: "A First Information Report (FIR) is a report of a crime made to the police. It is registered under Section 154 of The Code of Criminal Procedure, 1973. FIRs apply to cognizable crimes where police can arrest without a warrant and start investigations immediately."
 pubDate: "Aug 10 2024"
-heroImage: "https://img.freepik.com/free-vector/hand-drawn-policeman-silhouette-illustration_23-2151209383.jpg?t=st=1723300674~exp=1723304274~hmac=82dad2401555be0a0a7b01ee22bedc7403a055127117de31bf03510c6ebca645&w=826"
+heroImage: "https://res.cloudinary.com/dbcwdur62/image/upload/f_auto,q_auto/v1/images/eo9tpkpai9xjlrhjr2k8"
 ---
 
 ## What is an FIR?

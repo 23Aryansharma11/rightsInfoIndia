@@ -2,7 +2,7 @@
 title: "How to File a Complaint in Consumer Court"
 description: "If you’re unhappy with a product or service, you might want to consider filing a case in a Consumer Court. Here’s a simple guide to help you understand the process."
 pubDate: "Aug 10 2024"
-heroImage: "https://img.freepik.com/free-photo/fingers-note-report-journalist-filling_1150-1044.jpg?t=st=1723301277~exp=1723304877~hmac=a0c44f4c2579335f9eafdc3926588e89e9c87721a8bd1d8c48e1be92d9100df5&w=1380"
+heroImage: "https://res.cloudinary.com/dbcwdur62/image/upload/f_auto,q_auto/v1/images/koig02jx8mdnl0tk3in9"
 ---
 
 

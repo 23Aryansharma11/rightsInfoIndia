@@ -2,7 +2,7 @@
 title: "Start Exploring"
 description: "While we enjoy the freedoms granted to us, we must also be mindful of our duties as responsible citizens. This balance is what makes our society harmonious and progressive."
 pubDate: "Aug 10 2024"
-heroImage: "/startExploring.jpg"
+heroImage: "https://res.cloudinary.com/dbcwdur62/image/upload/f_auto,q_auto/v1/images/yo9qxtlp3vkd9cqojqer"
 ---
 
 # Embrace Your Rights and Duties

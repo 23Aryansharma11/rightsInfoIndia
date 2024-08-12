@@ -2,7 +2,7 @@
 title: "Understanding Your Rights During Police Interrogation in India"
 description: "When facing police interrogation in India, it's essential to be aware of your legal rights to ensure fair treatment. Here's a concise guide to your key rights during such situations."
 pubDate: "Aug 10 2024"
-heroImage: "https://img.freepik.com/free-vector/police-arresting-criminal-concept-illustration_114360-13673.jpg?t=st=1723300850~exp=1723304450~hmac=3debdc2f05206df2277f7f5eb1ce997f55f497d809000a5e6aa5cae20d0900b9&w=826"
+heroImage: "https://res.cloudinary.com/dbcwdur62/image/upload/f_auto,q_auto/v1/images/yw2hi7m0rdnjptgqgdso"
 ---
 
 
