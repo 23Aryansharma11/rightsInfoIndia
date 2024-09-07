@@ -5,6 +5,7 @@ import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 import { ViewTransitions } from "astro:transitions";
+import TeamWork from "../assets/TeamWork.png";
 ---
 
 <!doctype html>
@@ -18,7 +19,7 @@ import { ViewTransitions } from "astro:transitions";
     <main>
       <div class="banner">
         <Image
-          src="https://img.freepik.com/free-photo/strength-people-hands-success-meeting_1150-1690.jpg?t=st=1723284499~exp=1723288099~hmac=d45b70c3a0d4078cbf1b1afb9728b8b7f9f8dcf538e50f85103f076b9caba3bd&w=1380"
+          src={TeamWork}
           alt=""
           width={800}
           height={300}
